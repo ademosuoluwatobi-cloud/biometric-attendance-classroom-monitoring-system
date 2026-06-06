@@ -1,0 +1,22 @@
+# Arduino build/cache files
+*.elf
+*.hex
+*.bin
+*.map
+*.eep
+*.lst
+*.o
+*.d
+
+# VS Code
+.vscode/
+
+# Secrets / private config
+config/secrets.h
+config/wifi_config.h
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
